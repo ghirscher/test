@@ -9,7 +9,8 @@ print "<br><br>";
 print "<br>Einzeln Artikel auslesen: ".$xml3->Preis[1]["Artikel"];
 
 foreach ($xml3->Preis AS $artikel) {
-	print "<br>Mein Artikel: ".$artikel["Artikel"]." mit Preis: ".$artikel["Preis"]." und Status: ".$artikel["Status"];
+	print "<br>Mein Artikel: ".$artikel["Artikel"]." mit Preisen: ".$artikel["Preis"]." und";
+	print " - Status ".$artikel["Status"];
 }
 
 print "<br><br>------------------------<br><br>";
