@@ -28,7 +28,7 @@ if (file_exists('test.xml')) {
 	
 	$xml = simplexml_load_file('test.xml');
 
-	foreach($xml->product AS $product) print "<br>Productnumbrs: ".$product->belboonproductnumber;
+	foreach($xml->product AS $product) print "<br>Productnumbers: ".$product->belboonproductnumber;
 
 }
 else exit('Konnte Datei nicht laden.');
